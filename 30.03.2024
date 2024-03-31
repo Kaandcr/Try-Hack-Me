@@ -1,0 +1,18 @@
+room:Intro to offensive security
+gobuster -u http://fakebank.com -w wordlist.txt 
+-gobuster komutunu,ne işe yaradığını -u ve -w ne işe yarıyor öğrendim
+
+ayriyeten:
+Sızma Test Uzmanı(Penetration Tester) - İstismar edilebilir güvenlik açıklarını bulmak için teknoloji ürünlerini test etmekten sorumludur.
+Red Teamer(Red Teamer) - Düşman rolünü oynar, bir kuruluşa saldırır ve düşmanın bakış açısından geri bildirim sağlar.
+Güvenlik Mühendisi(Security Engineer)- Siber saldırıları önlemeye yardımcı olmak için güvenlik kontrollerini, ağları ve sistemleri tasarlar, izler ve bakımını yapar.
+
+
+Room:TryHackMe | Welcome
+sanal makinenin ip adresi searchlendi
+
+Room:TryHackMe | How to use TryHackMe
+Basic terminal kodları ne işe yarar açıklanmış.
+
+Room:TryHackMe | Tutorial
+ip adresini url çubuğuna yapıştırıp vpnye bağlanmamızı istiyor.

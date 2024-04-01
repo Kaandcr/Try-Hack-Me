@@ -1,0 +1,34 @@
+Oda:TryHackMe | OpenVPN 
+open vpn'nin nasıl kurulacağını gösteren ve sanal bir bilgisayardaysak nasıl dağıtılacağını açıklayan bir oda
+
+Room:TryHackMe | Learning Cyber Security
+İlk olarak:
+TryHackMe'nin kendi sosyal medya sitesinde, doğrulama kodu gönderen ve otomatik sms onayı ile kaba kuvvet saldırısı gerçekleştiren küçük bir araçla doğrulama kodu gönderen ve şifreyi değiştiren küçük bir hack yapıyoruz.
+İkinci olarak:
+Siber güvenlikte ağları anlamak gerçekten önemlidir. Bir ağda kimin ve neyin olduğunu taramak ve tanımlamaktan, kullanıcıların ne yaptığını izlemek ve takip etmek için ağ günlüklerini incelemeye kadar, ağların nasıl çalıştığını anlamanızı gerektirecektir.
+TryHackMe'nin Tam Başlangıç öğrenme yolu, ağ kavramları konusunda size yol gösterecek ve siber güvenlik yolculuğunuza başlamanız için yeterli bilgiyi verecektir.
+
+Room:TryHackMe | Introductory Researching
+Bu oda, elimizdeki en önemli kaynaklardan bazılarına kısa bir genel bakış sunar.
+Steganografinin ne olduğu güzel bir şekilde anlatılıyor.
+Steganografi hakkında bazı yararlı toollar ve bununla alakalı
+kendi kali linux'umda "sudo apt-get install steghide" komumtu ile toolumu yükleyip birebir pratik yaptım.
+Yararlı komutlar:
+steghide info file :bir dosya hakkında gömülü veri olup olmadığına dair bilgi görüntüler.
+steghide extract -sf file : bir dosyadan gömülü verileri çıkarır
+
+Foremost tool
+foremost -i dosya : verilen dosyadan verileri çıkarır.
+
+Strings tool
+strings file : verilen dosyadaki yazdırılabilir dizeleri görüntüler.
+exiftool file : verilen dosyanın meta verilerini gösterir
+
+
+
+
+
+
+
+
+

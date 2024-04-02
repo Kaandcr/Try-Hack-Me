@@ -1,0 +1,21 @@
+TryHackMe | CC: Pen Testing(Kaldırılmış oda)
+Brute forcing
+Hash cracking
+service enumeration
+linux enumration
+kavramlarını öğretiyor
+
+nmap -sS -sV -sC -O -Pn "ipadresi"
+-sS  Syn taraması yapar
+-sV  çalışan servislerin versiyon kontrolü yapar
+-sC  çalışan servis enumeration'ını(bilgi toplama) yapar
+-O  işletim sistemi bilgisi alma
+-Pn ping atmıyoruz çünkü bazı makineler ping atmaya kapalı olduğundan makine kapalı gibi gözükebiliyor
+
+dirb http://"ipadresi" -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+Websitelerindeki directoryleri(dosya/dizin) bulmamıza yarayan kod
+
+enum4linux burada önemli bir tool.
+enum4linux -a "ipadresi" 
+
+hydra -l "username" -P usr/share/wordslists/rockyou.txt  ssh://"ipadresi" -VV ile pw denenir

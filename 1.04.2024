@@ -24,6 +24,7 @@ Strings tool
 strings file : verilen dosyadaki yazdırılabilir dizeleri görüntüler.
 exiftool file : verilen dosyanın meta verilerini gösterir
 
+ExploitDB(bilgisayardaki açıkları gösteren bir yazılımdır)
 
 
 

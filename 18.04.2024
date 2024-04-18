@@ -1,0 +1,27 @@
+TryHackMe | Regular expressions
+-Klasik dosya tarama işlemlerini yapan komutları gösteren bir oda.
+Akılda kalması önemli bazı komutlar:
+Karakterler
+Escaping (kaçış): Regex’in içinde özel karakterlerin yer aldığı bir sembol kümesi vardır. Bu karakterler metinlerde de kullanığımız [ ] ? % + ^ gibi semboller olabilmektedir. Bu semboller metinde Regex mi belirtip belirtmediği ya da metnin kendi içinde mi yer aldığını ayırt etmek önemlidir. Aksi takdirde istenilen sonuç elde edilemeyebilir. Bu nedenle escaping karakter denilen \ (ters bölü işareti) kullanılmaktadır.
+
+Aşağıda regex söz dizimi (syntax) içerisinde kullanılan özel karakterlerdir görülebilmektedir:
+
+“+” Bir önündeki ifadenin en az 1 defa ve daha fazla yakalanmasını sağlar. Önemli olan kısım en az bir defa çalışmalıdır.
+“-” Aralık belirtmede kullanılır.
+“*” Bir önündeki ifadenin 0 ve daha fazla yakalanmasını sağlar. Hiç çalışmasa da pattern bozulmaz, devam eder.
+“[ ]” Liste oluşturur. Listenin içindeki ifadeleri yakalar.
+“[^]” Tersi, negatifi anlamındadır. Listenin içindeki ifadeler hariç diğer her şeyi yakalar.
+“.” Yeni satır hariç bütün karakterleri yakalar.
+“{x, y}” Bir önündeki ifadenin en az ve en çok kaç defa yakalanacağını ifade eder {en az=x , en çok=y}
+(?<=) Positive lookbehind, eşittir işaretinden sonra hangi karakter yada kelimeyi yazarsanız, oraya kadar yakalar ve imleci son karakterin sağ tarafına getirir. 
+“?” Opsiyonel (0 veya 1 kez tekrarlı) kullanım.
+“$” Satır sonu. Metin bitiş kuralı.
+“|”  Veya, önceki koşul yada sonraki koşuldan birisini çalıştırırsa devam eder.
+ 
+
+Yazılmayan karakterler ise şöyledir:
+
+“\n” satır sonu (new line)
+“\r” satır kesme (break)
+“\t” sekme boşluk (tab)
+“\b” kelime sınırı (word boundary)
